@@ -109,7 +109,7 @@ march-madness-pipeline/
 
 ## What I Learned / Future Work
 
-The killshot pillar was the most intellectually interesting part to design. The hypothesis — that teams capable of going on big runs and surviving them are built for tournament variance — is intuitive, but encoding it cleanly from raw ESPN play-by-play required a lot of edge case handling (simultaneous scoring rows, CBBpy column name drift, half detection). Whether it actually improves out-of-sample prediction over efficiency alone is what the Cross Validation (leaving one year out) is there to answer honestly.
+The killshot pillar was the most intellectually interesting part to design. The hypothesis that teams capable of going on big runs and surviving them are built for tournament variance, is intuitive, but encoding it cleanly from raw ESPN play-by-play required a lot of edge case handling (simultaneous scoring rows, CBBpy column name drift, half detection). Whether it actually improves out-of-sample prediction over efficiency alone is what the Cross Validation (leaving one year out) is there to answer honestly.
 
 **Future directions:**
 - Add transfer portal data: a team that added three transfers from high-major programs in March is a different team than its Barttorvik rating suggests
