@@ -1,0 +1,22 @@
+# Scraping
+requests
+beautifulsoup4
+lxml
+
+# College basketball data
+cbbpy
+
+# Data processing
+pandas
+numpy
+
+# Machine learning
+scikit-learn
+xgboost
+joblib
+
+# Utilities
+tqdm
+
+# Note: versions are not pinned. This project was developed with
+# Python 3.11 and scikit-learn 1.x. Pin versions for strict reproducibility.
