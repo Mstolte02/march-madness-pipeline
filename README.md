@@ -29,7 +29,7 @@ Training uses leave-one-year-out cross-validation (2015–2025, excluding 2020) 
 
 ## Key Results / Highlights
 
-- **TODO:** Fill in LOYO-CV accuracy, log loss, and Brier score after running `05_train_model.py`
+- **TODO:** Fill in Cross Validation (leaving one year out) accuracy, log loss, and Brier score after running `05_train_model.py`
 - **TODO:** Fill in improvement over seed-only baseline (printed by the training script)
 - Covers seasons **2015–2026** (excluding 2020 COVID cancellation) — 10 tournament years of backtesting
 - Killshot detection processes **5,000+ games per season** of ESPN play-by-play; the `--resume` flag lets you pick up where you left off if interrupted
@@ -109,7 +109,7 @@ march-madness-pipeline/
 
 ## What I Learned / Future Work
 
-The killshot pillar was the most intellectually interesting part to design. The hypothesis — that teams capable of going on big runs and surviving them are built for tournament variance — is intuitive, but encoding it cleanly from raw ESPN play-by-play required a lot of edge case handling (simultaneous scoring rows, CBBpy column name drift, half detection). Whether it actually improves out-of-sample prediction over efficiency alone is what the LOYO-CV is there to answer honestly.
+The killshot pillar was the most intellectually interesting part to design. The hypothesis — that teams capable of going on big runs and surviving them are built for tournament variance — is intuitive, but encoding it cleanly from raw ESPN play-by-play required a lot of edge case handling (simultaneous scoring rows, CBBpy column name drift, half detection). Whether it actually improves out-of-sample prediction over efficiency alone is what the Cross Validation (leaving one year out) is there to answer honestly.
 
 **Future directions:**
 - Add transfer portal data: a team that added three transfers from high-major programs in March is a different team than its Barttorvik rating suggests
